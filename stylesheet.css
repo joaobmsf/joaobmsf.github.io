@@ -37,6 +37,7 @@
 
 .calculadora .enfase { 
   background-color: #8000FF;
+  font-weight: bold;
 }
 
 .calculadora .clear {
