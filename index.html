@@ -1,1 +1,44 @@
-Hello World
+<html>
+  <head>
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <link href='http://fonts.googleapis.com/css?family=Orbitron:400,500' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="funcoes.js"></script>
+  </head>
+
+  <body>
+    <div class="calculadora">
+      <div class="display" >
+        <input type="text" value="0" class="calculadora_display" />
+      </div>
+      <div class="botoes">
+        <button class="botao clear uma-coluna uma-linha js-botao">C</button>
+        <button class="botao uma-coluna uma-linha js-botao">+/-</button>
+        <button class="botao uma-coluna uma-linha js-botao">/</button>
+        <button class="botao uma-coluna uma-linha js-botao">X</button>
+        <button class="botao uma-coluna uma-linha js-botao">7</button>
+        <button class="botao uma-coluna uma-linha js-botao">8</button>
+        <button class="botao uma-coluna uma-linha js-botao">9</button>
+        <button class="botao uma-coluna uma-linha js-botao">-</button>
+        <button class="botao uma-coluna uma-linha js-botao">4</button>
+        <button class="botao uma-coluna uma-linha js-botao">5</button>
+        <button class="botao uma-coluna uma-linha js-botao">6</button>
+        <button class="botao uma-coluna uma-linha js-botao">+</button>
+        <div class="duas-linha tres-coluna"> 
+          <button class="botao uma-coluna uma-linha js-botao">1</button>
+          <button class="botao uma-coluna uma-linha js-botao">2</button>
+          <button class="botao uma-coluna uma-linha js-botao">3</button>
+          <button class="botao duas-coluna uma-linha js-botao">0</button>
+          <button class="botao uma-coluna uma-linha js-botao">.</button>
+          <div style="clear: both;"></div>
+        </div>
+        <button class="botao uma-coluna duas-linha js-botao">=</button>
+        <div style="clear: both;"></div>
+      </div>
+    </div>
+
+  </body>
+
+
+</html>
