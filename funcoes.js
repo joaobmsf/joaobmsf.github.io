@@ -11,6 +11,13 @@ $(document).ready( function() {
       var texto = $(this).text();
       console.log(texto);
       botaoClicked(texto);
+    }).hover(
+    function() {
+      $(this).addClass("enfase");
+      console.log("mouse passou por cimaa!");
+    },
+    function() {
+      $(this).removeClass("enfase");
     });
 });
 
